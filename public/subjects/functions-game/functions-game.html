@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../images/logo.png" />
+    <link rel="stylesheet" type="text/css" href="../../main-style.css">
+    <meta charset="utf-8"/>
+  </head>
+
+  <body>
+
+    <div id='board'>
+      <div class='rounded' id='ui-nav'>
+        <div class='rounded prompt' id="ui-score">
+          Score: 0
+        </div>
+        <div class="rounded prompt" id='ui-prompt'>
+          Name that Function
+        </div>
+      </div>
+      <canvas class="rounded" id='game-canvas'>
+
+      </canvas>
+    </div>
+    <div id='quotient-column'>
+      <div class="ui-quotient" id="ui-nume">
+        Opposite
+      </div>
+      <div class="ui-quotient" id="ui-deno">
+        Hypotenuse
+      </div>
+    </div>
+
+    <div id="button-row">
+      <button class='three-btns button rounded' id='ui-sine'>Sin</button>
+      <button class='three-btns button rounded' id='ui-cosine'>Cos</button>
+      <button class='three-btns button rounded' id='ui-tangent'>Tan</button>
+      <button class='three-btns button rounded' id='ui-cosecant'>Csc</button>
+      <button class='three-btns button rounded' id='ui-secant'>Sec</button>
+      <button class='three-btns button rounded' id='ui-cotangent'>Cot</button>
+    </div>
+
+    <div id='notes'>
+      <div class='note'>
+        <h1 class='note-h'>
+          Legend
+        </h1>
+        <p class='note-p'>
+          The side on top is the numerator in this division.
+          <br>The side on the bottom is the denominator.
+        </p>
+      </div>
+
+      <div class='note'>
+        <h1 class='note-h'>
+          How are these functions defined?
+        </h1>
+        <p class='note-p'>
+          Sine = Opp/Hyp
+          <br>Cosine = Adj/Hyp
+          <br>Tangent = Opp/Adj
+          <br>Cosecant = Hyp/Opp
+          <br>Secant = Hyp/Adj
+          <br>Cotangent = Adj/Opp
+      </div>
+      <div class='note'>
+        <h1 class='note-h'>
+          Relations between functions
+        </h1>
+        <p class='note-p'>
+          The main Trigonometric functions are Sine, Cosine, and Tangent.
+          <br>On the unit circle, Sine represents Y values, and Cosine represents X values.
+          <br>
+          <br>Tangent is Sine divided by Cosine.
+          <br><em>Sine / Cosine = (Opp/Hyp) / (Adj/Hyp) = Opp/Hyp.</em>
+          <br>
+          <br>The other three functions are reciprocals of the first three.
+          <br>Cosecant is 1/Sine = 1/(Opp/Hyp) = Hyp/Opp
+          <br>Secant is 1/Cosine = 1/(Adj/Hyp) = Hyp/Adj
+          <br>Cotangent is 1/Tangent = 1/(Opp/Adj) = Adj/Opp
+        </p>
+      </div>
+      <div class='note'>
+        <h1 class='note-h'>
+          Why learn this?
+        </h1>
+        <p class='note-p'>
+          These functions become as useful as numbers.
+          <br>Once we learn Trigonometry it shows up in nearly every subject we cover afterward.
+          <br>In Calculus we use trigonometric functions to squeeze an unmeasurable value between two extremes when we learn the squeeze theorem.
+        </p>
+      </div>
+    </div>
+
+
+
+    <script src="../../canvas.js"></script>
+    <script src="../../navscript.js"></script>
+    <script src="functions-script.js"></script>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.7.0/firebase-app.js"></script>
+    <script src="/__/firebase/7.7.0/firebase-analytics.js"></script>
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../images/logo.png" />
+    <link rel="stylesheet" type="text/css" href="../../main-style.css">
+    <meta charset="utf-8"/>
+  </head>
+
+  <body>
+    <div id='board'>
+      <div class='rounded' id='ui-nav'>
+        <div class="rounded prompt prompt-wide" id='ui-prompt-wide'>
+          Sine = y/r
+        </div>
+      </div>
+
+      <canvas class="rounded" id='sine-game-canvas'></canvas>
+
+      <div class='rounded' id='sine-ui'>
+        <div class='rounded sui-element' id='formula'>
+          sin(&nbsp;&nbsp;0) = 0
+        </div>
+        <div class='rounded sui-element' id='degree'>
+          degree = 0;
+        </div>
+        <div class='rounded sui-element' id='amplitude'>
+          amplitude = 1
+        </div>
+        <div class='rounded sui-element' id='period'>
+          period = 2Pi/b
+        </div>
+        <div class='rounded sui-element' id='y'>
+          y = &nbsp;&nbsp; 0
+        </div>
+        <button class='button rounded' id='ui-play'>Stop</button>
+        <div class='rounded sui-element' id='offset'>
+          horizontal offset = c
+        </div>
+        <div class='rounded sui-element' id='vertical offset'>
+          vertical offset = d
+        </div>
+      </div>
+    </div>
+
+    <div id='notes'>
+      <div class='note'>
+        <h1 class='note-h'>
+          What is Sine?
+        </h1>
+        <p class='note-p'>
+          As a function, sine is useful to describe any part of the real world that repeats.
+          <br>To find the length of the opposite side, sine can be multiplied by hypotenuse.
+          <br><em>y = hypotenuse * sin(angle)</em>
+        </p>
+      </div>
+      <div id='board'>
+        <canvas class="rounded" id='half-chord-canvas'></canvas>
+      </div>
+      <div class='note'>
+        <h1 class='note-h'>
+          Sine is a mistranslation.
+        </h1>
+        <p class='note-p'>
+          Before sine was mistranslated from Sanskrit to Latin, it was called "half-chord."
+          <br>The chord of a bow is a great visual mnemonic for sine.
+          <br><em>The bow is the brown arc, and it's chord is the white line.</em>
+          <br>We only use half the chord because it is the length of the opposite side.
+          <br>The hypotenuse would be the length of the chord when drawn.
+          <br><em>The bow's chord when drawn is the dotted white lines.</em>
+
+        </p>
+      </div>
+    </div>
+    </div>
+
+
+    <script src="../../canvas.js"></script>
+    <script src="../../navscript.js"></script>
+    <script src="sine-game-script.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.7.0/firebase-app.js"></script>
+    <script src="/__/firebase/7.7.0/firebase-analytics.js"></script>
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+  </body>
+</html>

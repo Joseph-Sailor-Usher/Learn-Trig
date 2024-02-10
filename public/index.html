@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/logo.png" />
+    <link type='text/css' rel='stylesheet' href='main-style.css'></link>
+    <script>
+      !function(n,e){var t,o,i,c=[],f={passive:!0,capture:!0},r=new Date,a="pointerup",u="pointercancel";function p(n,c){t||(t=c,o=n,i=new Date,w(e),s())}function s(){o>=0&&o<i-r&&(c.forEach(function(n){n(o,t)}),c=[])}function l(t){if(t.cancelable){var o=(t.timeStamp>1e12?new Date:performance.now())-t.timeStamp;"pointerdown"==t.type?function(t,o){function i(){p(t,o),r()}function c(){r()}function r(){e(a,i,f),e(u,c,f)}n(a,i,f),n(u,c,f)}(o,t):p(o,t)}}function w(n){["click","mousedown","keydown","touchstart","pointerdown"].forEach(function(e){n(e,l,f)})}w(n),self.perfMetrics=self.perfMetrics||{},self.perfMetrics.onFirstInputDelay=function(n){c.push(n),s()}}(addEventListener,removeEventListener);
+    </script>
+  </head>
+  <body>
+    <div class="menu" id="subject-menu">
+
+      <div class="subject">
+        <div class="subject-name rounded">
+          <h1>About</h1>
+        </div>
+        <canvas class='demo-canvas button rounded' id="about-demo" width="144" height="144"></canvas>
+        <div class="description rounded">
+          <p>Learn more about Learn Trig.</p>
+        </div>
+      </div>
+
+      <div class="subject">
+        <div class="subject-name rounded">
+          <h1>Side Names</h1>
+        </div>
+        <canvas class='demo-canvas button rounded' id="side-names-demo" width="144" height="144"></canvas>
+        <div class="description rounded">
+          <p>Name a triangle's sides relative to an angle.</p>
+        </div>
+      </div>
+
+      <div class="subject">
+        <div class="subject-name rounded">
+          <h1>Functions</h1>
+        </div>
+        <canvas class='demo-canvas button rounded' id="functions-demo" width="144" height="144"></canvas>
+        <div class="description rounded">
+          <p>Define trig functions as ratios.</p>
+        </div>
+      </div>
+      <div class="subject">
+        <div class="subject-name rounded">
+          <h1>Sine</h1>
+        </div>
+        <canvas class='demo-canvas button rounded' id="sine-demo" width="144" height="144"></canvas>
+        <div class="description rounded">
+          <p>Dive deeper into sine's origin.</p>
+        </div>
+      </div>
+<!--
+      <div class="subject">
+        <div class="subject-name rounded">
+          <h1>Find Functions</h1>
+        </div>
+        <canvas class='demo-canvas button rounded' id="functions-demo"></canvas>
+        <div class="description rounded">
+          <p>Match trigonometric functions with sides of a triangle</p>
+        </div>
+      </div>
+-->
+
+      <div class="subject">
+        <div class="subject-name rounded">
+          <h1>Find Ratios</h1>
+        </div>
+        <canvas class='demo-canvas button rounded' id="find-ratios-demo"></canvas>
+        <div class="description rounded">
+          <p>Match trig functions with ratios of sides.</p>
+        </div>
+      </div>
+      <div class="subject" id="subject-header">
+        <div class="subject-name rounded">
+          <h1>Unit Circle</h1>
+        </div>
+        <canvas class='demo-canvas button rounded' id="unit-circle-demo" width="144" height="144"></canvas>
+        <div class="description rounded">
+          <p>Pair angles with values of radians, degrees, sine, and cosine.</p>
+        </div>
+      </div>
+<!--
+      <div class="subject">
+        <div class="subject-name rounded">
+          <h1>Find Angles</h1>
+        </div>
+        <canvas class='demo-canvas button rounded' id="find-angles-demo"></canvas>
+        <div class="description rounded">
+          <p>Use Sine inverse and Cosine to find the angles of triangles.</p>
+        </div>
+      </div>
+
+      <div class="subject">
+        <div class="subject-name rounded">
+          <h1>Identities</h1>
+        </div>
+        <canvas class='demo-canvas button rounded' id="identities-demo"></canvas>
+        <div class="description rounded">
+          <p>Memorize trigonometric identities.</p>
+        </div>
+      </div>
+
+      <div class="subject">
+        <div class="subject-name rounded">
+          <h1>Coordinates</h1>
+        </div>
+        <canvas class='demo-canvas button rounded' id="coordinates-demo"></canvas>
+        <div class="description rounded">
+          <p>See how polar, and rectangular coordinates can describe the same point.</p>
+        </div>
+      </div>
+    </div>
+-->
+    <div id='notes'>
+      <div class='note'>
+        <h1 class='note-h'>
+          What does Trigonometry mean?
+        </h1>
+        <p class='note-p'>
+          Since "Tri" means three, "Gon" means angle, and "Metry" means measurements, trigonometry means triangular measurements.
+        </p>
+      </div>
+      <div class='white-note' id="cheat-sheet">
+        <h1 class='note-h'>Cheat Sheet</h1>
+
+        <div class="cs-menu" id="subject-menu">
+          <div class="cs-subject">
+            <h1>Trig Ratios</h1>
+            <div class="cs-description rounded">
+              <p>
+                Sin = Opp/Hyp
+                <br>Cos = Adj/Hyp
+                <br>Tan = Opp/Adj
+                <br>Csc = Hyp/Opp
+                <br>Sec = Hyp/Adj
+                <br>Cot = Adj/Opp
+              </p>
+            </div>
+          </div>
+          <div class="cs-subject">
+            <h1>Negative Angles</h1>
+            <div class="cs-description rounded">
+              <p>
+                Sin(-Θ) = -Sin(Θ)
+                <br>Cos(-Θ) = Cos(Θ)
+                <br>Tan(-Θ) = -Tan(Θ)
+              </p>
+            </div>
+          </div>
+          <div class="cs-subject">
+            <h1>Reciprocals</h1>
+            <div class="cs-description rounded">
+              <p>
+                Sin = 1/Csc
+                <br>Cos = 1/Sec
+                <br>Tan = 1/Cot
+                <br>Csc = 1/Sin
+                <br>Sec = 1/Cos
+                <br>Cot = 1/Cot
+              </p>
+            </div>
+          </div>
+          <div class="cs-subject">
+            <h1>Squared Identities</h1>
+            <div class="cs-description rounded">
+              <p>
+                Sin<sup>2</sup>Θ + Cos<sup>2</sup>Θ = 1
+                <br>Tan<sup>2</sup>Θ + 1 = Sec<sup>2</sup>Θ
+                <br>Cot<sup>2</sup>Θ + 1 = Csc<sup>2</sup>Θ
+              </p>
+            </div>
+          </div>
+          <div class="cs-subject">
+            <h1>± Formulas</h1>
+            <div class="cs-description rounded">
+              <p>
+                Sin(Θ ± π) = Sin(Θ)Cos(π) ± Cos(Θ)Sin(π)
+                <br>
+                <br>Sin(Θ ± π) = Cos(Θ)Cos(π) ∓ Sin(Θ)Sin(π)
+                <br>
+                <br>Tan(Θ) ± Tan(π)
+                <br>Tan(Θ ± π) = ----------------
+                <br>1 ∓ Tan(Θ)Tan(π)
+              </p>
+            </div>
+          </div>
+          <div class="cs-subject">
+            <h1>Coterminal Angles</h1>
+            <div class="cs-description rounded">
+              <p>
+                Θ = Θ * 2π * (± C)
+                <br>
+                <br><em>(C is any Integer)</em>
+              </p>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <script src="canvas.js"></script>
+    <script src="navscript.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.7.0/firebase-app.js"></script>
+    <script src="/__/firebase/7.7.0/firebase-analytics.js"></script>
+    <script src="/__/firebase/init.js"></script>
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+
+    <!-- Add the standard Performance Monitoring library -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-performance.js"></script>
+
+    <!-- Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js"></script>
+
+    <script>
+
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyDqxbLBELaMNN0WfPYZwYaE9wK5lGND9TA",
+        authDomain: "letrig-ba698.firebaseapp.com",
+        databaseURL: "https://letrig-ba698.firebaseio.com",
+        projectId: "letrig-ba698",
+        storageBucket: "letrig-ba698.appspot.com",
+        messagingSenderId: "1004780423572",
+        appId: "1:1004780423572:web:46b43eb7f6d3a058bd6781",
+        measurementId: "G-VVGWQGTT26"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+
+      // Initialize Performance Monitoring and get a reference to the service
+      var perf = firebase.performance();
+    </script>
+
+    <!-- Initialize Firebase -->
+    <script>
+      // The perfMetrics object is created by the code that goes in <head>.
+      perfMetrics.onFirstInputDelay(function(delay, evt) {
+        ga('send', 'event', {
+          eventCategory: 'Perf Metrics',
+          eventAction: 'first-input-delay',
+          eventLabel: evt.type,
+          // Event values must be an integer.
+          eventValue: Math.round(delay),
+          // Exclude this event from bounce rate calculations.
+          nonInteraction: true,
+        });
+      });
+    </script>
+  </body>
+</html>

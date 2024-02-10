@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../images/logo.png" />
+    <link rel="stylesheet" type="text/css" href="../../main-style.css">
+    <meta charset="utf-8"/>
+  </head>
+
+  <body>
+
+    <div id='board'>
+      <div class='rounded' id='ui-nav'>
+        <div class='rounded prompt' id="ui-score">
+          Score: 0
+        </div>
+        <div class="rounded prompt" id='ui-prompt'>
+          Find Ratios
+        </div>
+      </div>
+      <canvas class="rounded" id='game-canvas'></canvas>
+    </div>
+
+    <div id="button-row">
+      <button class='three-btns button rounded' id='ui-hyp'><hr></button>
+      <button class='three-btns button rounded' id='ui-adj'><hr></button>
+      <button class='three-btns button rounded' id='ui-opp'><hr></button>
+    </div>
+
+    <div id='notes'>
+      <div class='note'>
+        <h1 class='note-h'>
+          Legend
+        </h1>
+        <p class='note-p'>
+          The white dot is the angle we are measuring from.
+          <br>The function written inside the angle is the ratio we are measuring.
+          <br>The numbers in the black dots are the lengths of those sides.
+          <br><em>Make sure to play the functions game, and the side names game before playing this one.</em>
+        </p>
+      </div>
+
+      <div class="white-note">
+
+        <div class="cs-menu" id="subject-menu">
+          <div class="menu" id="subject-menu">
+            <div class="subject">
+              <div class="subject-name rounded">
+                <h1>Side Names</h1>
+              </div>
+              <canvas class='demo-canvas button rounded' id="side-names-demo" width="144" height="144"></canvas>
+              <div class="description rounded">
+                <p>Name a triangle's sides relative to an angle.</p>
+              </div>
+            </div>
+
+            <div class="subject">
+              <div class="subject-name rounded">
+                <h1>Functions</h1>
+              </div>
+              <canvas class='demo-canvas button rounded' id="functions-demo" width="144" height="144"></canvas>
+              <div class="description rounded">
+                <p>Define trig functions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='note'>
+        <h1 class='note-h'>
+          Why learn this?
+        </h1>
+        <p class='note-p'>
+          Relating the trigonometric functions with triangles with definite side lengths prepares us to find missing side lengths.
+          <br>If we are asked to find the values of all the trigonometric functions for a triangle on a test,
+          <br>the process will eventually be exactly like this.
+        </p>
+      </div>
+    </div>
+    <script src="../../canvas.js"></script>
+    <script src="../../navscript.js"></script>
+    <script src="find-ratios-script.js"></script>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.7.0/firebase-app.js"></script>
+    <script src="/__/firebase/7.7.0/firebase-analytics.js"></script>
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+  </body>
+</html>
