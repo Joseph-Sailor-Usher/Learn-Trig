@@ -1,5 +1,5 @@
 # LearnTrig.com
-
+<img width="976" alt="Screenshot 2024-02-14 at 12 49 08 PM" src="https://github.com/Joseph-Sailor-Usher/learntrig/assets/100800088/70b6bde3-92de-4dd1-bdfe-f6255bdf7060">
 ## About
 
 LearnTrig.com is a dedicated platform designed to demystify trigonometry for learners worldwide. Offering a comprehensive suite of resources, this website simplifies the understanding of trigonometric functions, ratios, and the unit circle through gamification. Whether you're tackling trigonometric identities, exploring the unit circle, or deciphering the relations between different trigonometric functions, LearnTrig.com is your free educational companion.
