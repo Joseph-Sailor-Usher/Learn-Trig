@@ -1,5 +1,5 @@
 # LearnTrig.com
-<img width="977" alt="Screenshot 2024-02-14 at 12 50 07 PM" src="https://github.com/Joseph-Sailor-Usher/learntrig/assets/100800088/824df762-6870-4525-8e84-ccb56c66e6ea">
+<img width="973" alt="Screenshot 2024-02-14 at 12 51 30 PM" src="https://github.com/Joseph-Sailor-Usher/learntrig/assets/100800088/fd747e46-a82b-4201-ac70-66537a3dd6ce">
 
 ## About
 
