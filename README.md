@@ -9,7 +9,7 @@ Functions teaches people how the trig functions are defined.
 Sine teaches people the intuition behind sine and cosine, by showing an animation of a circle rotating, and a triangle tracing the wave on a graph.
 Find Ratios teaches people to put it all together and identify side names, then read values on the edges for each side and then organize them in the order a given function would be defined in.
 The Unit Circle Quiz teaches people to recognize radians, and degrees in 30 degree increments all around the unit circle. It also teaches people to recognize values of sine and cosine at those angles.
-### Skill Progression Tree
+### Skill Progression Paths
 
 ```plaintext
            [Side Names]   [Functions]     [Unit Circle Quiz]
