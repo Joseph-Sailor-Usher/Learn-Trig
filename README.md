@@ -1,43 +1,18 @@
-# LearnTrig.com - Understanding the Fabric of Space Through Trigonometry
+# LearnTrig.com
 
 ## About
 
-LearnTrig.com is a journey into the essence of trigonometry, simplifying the complexities of spatial dimensions and their relation to polar and Cartesian coordinates.
+LearnTrig.com is a dedicated platform designed to demystify trigonometry for learners worldwide. Offering a comprehensive suite of resources, this website simplifies the understanding of trigonometric functions, ratios, and the unit circle through gamification. Whether you're tackling trigonometric identities, exploring the unit circle, or deciphering the relations between different trigonometric functions, LearnTrig.com is your free educational companion.
 
-## Design Theory and Methodology
-
-### Spatial Dimensions
-
-Starting from the simplest perspective to build a fundamental understanding of space and how we represent points and intervals within it.
-
-### Triangles and Angles
-
-Addressing the challenges and limitations of traditional methods in understanding triangles and their angles.
-
-### Interactive Learning through Games
-
-Interactive games like **Arc Lengths** and **Name that Side** engage users in the learning process.
-
+Functions teaches people how the trig functions are defined.
+Sine teaches people the intuition behind sine and cosine, by showing an animation of a circle rotating, and a triangle tracing the wave on a graph.
+Find Ratios teaches people to put it all together and identify side names, then read values on the edges for each side and then organize them in the order a given function would be defined in.
+The Unit Circle Quiz teaches people to recognize radians, and degrees in 30 degree increments all around the unit circle. It also teaches people to recognize values of sine and cosine at those angles.
 ### Skill Progression Tree
 
 ```plaintext
-           [Radians & Degrees]
-                  /  \
-                 /    \
-          [Sine Values]  [Cosine Values]
-                |
-        [Unit Circle Quiz]
-                |
-         [Find Ratios Game]
-                |
-           [Functions]
-                |
-          [Side Name Games]
-                |
-             [Triangles]
-                |
-            [Arc Lengths]
-                |
-       [Rectangular Coordinates]
-                |
-            [Spatial Dimensions]
+           [Side Names]   [Functions]     [Unit Circle Quiz]
+                     \      /                     |
+                      \    /            [Radians and Degrees]
+                   [Find Ratios]                  |
+                                     [Values of Sine and Cosine]
